@@ -1,0 +1,98 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F4F4F4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-top: 4rem;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    background-color: #FF6F00;
+    color: #FFF;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #007BFF;
+    color: #FFF;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-left: 1rem;
+}
+
+footer ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
