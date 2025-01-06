@@ -96,3 +96,54 @@ footer ul li a {
     color: #FFF;
     text-decoration: none;
 }
+
+.report-template {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.report-template h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.report-template .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #F4F4F4;
+    border: 1px dashed #CCC;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+    font-size: 1rem;
+}
+
+.dropdown {
+    margin: 1rem 0;
+}
+
+.dropdown select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.autofill {
+    margin: 1rem 0;
+}
+
+.autofill input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 100%;
+}
